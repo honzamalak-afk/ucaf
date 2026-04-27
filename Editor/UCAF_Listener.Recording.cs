@@ -78,7 +78,7 @@ public static partial class UCAF_Listener
                 var movieRec = ScriptableObject.CreateInstance<MovieRecorderSettings>();
                 movieRec.name    = "UCAF_Movie";
                 movieRec.Enabled = true;
-                movieRec.OutputFormat = MovieRecorderSettings.VideoRecorderOutputFormat.MP4;
+                movieRec.EncoderSettings = new CoreEncoderSettings { Codec = CoreEncoderSettings.OutputCodec.H264 };
                 // imageInputSettings property name differs per Recorder version — use reflection
                 SetInputSettingsReflection(movieRec, width, height);
                 SetRecorderOutputPath(movieRec.FileNameGenerator, outputDir, sessionId);
