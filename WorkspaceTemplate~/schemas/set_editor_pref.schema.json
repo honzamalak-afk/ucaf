@@ -1,0 +1,8 @@
+{
+  "command_type": "set_editor_pref",
+  "description": "Write a value to Unity EditorPrefs.",
+  "required_params": ["key", "value"],
+  "optional_params": [
+    {"key": "type", "type": "enum", "description": "Value type.", "default_value": "string", "enum_values": ["string", "int", "float", "bool"]}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "unity_project_path": "PLACEHOLDER_PROJECT_PATH",
+  "ucaf_workspace": "PLACEHOLDER_WORKSPACE_PATH",
+  "unity_executable": "PLACEHOLDER_UNITY_EXE",
+  "screenshot_interval_ms": 500,
+  "command_poll_interval_ms": 500,
+  "max_command_wait_seconds": 60,
+  "video_output_resolution": [1920, 1080],
+  "video_output_fps": 30,
+  "video_output_format": "MP4",
+  "approved_asset_sources": [
+    "kenney.nl",
+    "opengameart.org",
+    "sketchfab.com"
+  ],
+  "default_language": "cs",
+  "render_pipeline": "URP"
+}

@@ -1,0 +1,8 @@
+{
+  "command_type": "add_package",
+  "description": "Install a Unity package from the registry or git URL.",
+  "required_params": ["name"],
+  "optional_params": [
+    {"key": "version", "type": "string", "description": "Specific version e.g. 1.7.0. Omit for latest.", "default_value": "", "enum_values": []}
+  ]
+}

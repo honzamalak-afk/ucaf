@@ -1,0 +1,13 @@
+{
+  "name": "com.ucaf",
+  "version": "1.0.0",
+  "displayName": "UCAF - Unity Claude Assisted Framework",
+  "description": "AI-powered Unity Editor control via file-based IPC. Enables Claude to manipulate scenes, compile code, run tests, manage assets and control play mode.",
+  "unity": "6000.0",
+  "author": {
+    "name": "honzamalak-afk",
+    "url": "https://github.com/honzamalak-afk/ucaf"
+  },
+  "keywords": ["ai", "claude", "editor", "automation"],
+  "type": "tool"
+}

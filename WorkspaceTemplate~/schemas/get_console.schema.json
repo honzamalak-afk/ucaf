@@ -1,0 +1,11 @@
+{
+  "command_type": "get_console",
+  "description": "Query the in-memory console log buffer. Always pass 'since' to avoid re-reading entries you already saw.",
+  "required_params": [
+    {"key": "since", "type": "string", "description": "ISO-8601 timestamp; only return entries after this moment. Use the 'timestamp' of the last entry you received, or the start time of your current task.", "enum_values": []}
+  ],
+  "optional_params": [
+    {"key": "severity", "type": "enum",   "description": "Filter by severity.", "default_value": "", "enum_values": ["", "error", "warning", "log"]},
+    {"key": "max",      "type": "string", "description": "Maximum entries to return.", "default_value": "200", "enum_values": []}
+  ]
+}

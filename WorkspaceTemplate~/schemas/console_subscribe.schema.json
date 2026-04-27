@@ -1,0 +1,10 @@
+{
+  "command_type": "console_subscribe",
+  "description": "Subscribe to console log streaming. Events are written as NDJSON to ucaf_workspace/streams/{id}.ndjson.",
+  "required_params": [],
+  "optional_params": [
+    {"key": "level",        "type": "enum",   "description": "Log level filter.", "default_value": "All", "enum_values": ["All", "Log", "Warning", "Error"]},
+    {"key": "pattern",      "type": "string", "description": "Regex pattern to match against message.", "default_value": "", "enum_values": []},
+    {"key": "from_assembly","type": "string", "description": "Filter by assembly name in stack trace.", "default_value": "", "enum_values": []}
+  ]
+}

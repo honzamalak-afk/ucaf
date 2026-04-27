@@ -1,0 +1,12 @@
+{
+  "command_type": "recording_start",
+  "description": "Start a gameplay recording session. Requires Play Mode.",
+  "required_params": [],
+  "optional_params": [
+    {"key": "session_id", "type": "string", "description": "Unique session identifier. Auto-generated if omitted.", "default_value": "", "enum_values": []},
+    {"key": "format",     "type": "enum",   "description": "Output format.", "default_value": "png_sequence", "enum_values": ["png_sequence", "mp4"]},
+    {"key": "fps",        "type": "int",    "description": "Frames per second.", "default_value": "30", "enum_values": []},
+    {"key": "width",      "type": "int",    "description": "Output width in pixels.", "default_value": "1920", "enum_values": []},
+    {"key": "height",     "type": "int",    "description": "Output height in pixels.", "default_value": "1080", "enum_values": []}
+  ]
+}
